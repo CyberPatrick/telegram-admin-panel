@@ -1,0 +1,52 @@
+body {
+  background-color:#006BA6;
+}
+
+.login_menu {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -100px;
+  margin-top: -116px;
+  justify-content: center;
+  background-color: #F3EFF5;
+  border-radius: 30px;
+  padding: 12px;
+}
+
+#submit {
+  position: relative;
+  left: 50%;
+  margin-left: -44px;
+  background-color: #73AB84;
+  border: 0;
+  border-radius: 5px;
+  width: 50%;
+  height: 25px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+}
+
+#submit:hover {
+  background-color: #73ab84d8;
+}
+
+.form {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-weight: 700;
+}
+
+.login_menu input {
+  border-radius: 5px;
+}
+
+.login_menu h2 {
+  text-align: center;
+}
