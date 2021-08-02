@@ -1,3 +1,5 @@
+const $ = require('./jQuery.js')
+
 $(function() {
   $('input').keyup(function(event) {
     if (event.which === 13) {
